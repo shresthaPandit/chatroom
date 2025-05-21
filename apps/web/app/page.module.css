@@ -234,56 +234,6 @@
   transform: scale(1.1);
 }
 
-/* Light theme */
-:root {
-  --chat-bg: #fff;
-  --chat-header: #222;
-  --bubble-you: #007aff;
-  --bubble-you-text: #fff;
-  --bubble-other: #f1f0f0;
-  --bubble-other-text: #222;
-  --timestamp: #888;
-  --input-border: #ccc;
-  --input-bg: #f9f9f9;
-  --input-text: #222;
-  --btn-bg: #007aff;
-  --btn-text: #fff;
-  --btn-hover: #005bb5;
-  --status: #007aff;
-  --username: #555;
-  --card-border: #e0e0e0;
-  --bubble-shadow: rgba(0,0,0,0.07);
-  --avatar-bg: #e3e3e3;
-  --avatar-text: #222;
-  --avatar-you-bg: #007aff;
-  --avatar-you-text: #fff;
-}
-
-/* Dark theme */
-.dark {
-  --chat-bg: #181a20;
-  --chat-header: #fff;
-  --bubble-you: #005bb5;
-  --bubble-you-text: #fff;
-  --bubble-other: #23272f;
-  --bubble-other-text: #fff;
-  --timestamp: #aaa;
-  --input-border: #333;
-  --input-bg: #23272f;
-  --input-text: #fff;
-  --btn-bg: #007aff;
-  --btn-text: #fff;
-  --btn-hover: #005bb5;
-  --status: #4caf50;
-  --username: #aaa;
-  --card-border: #333;
-  --bubble-shadow: rgba(0,0,0,0.18);
-  --avatar-bg: #333;
-  --avatar-text: #fff;
-  --avatar-you-bg: #005bb5;
-  --avatar-you-text: #fff;
-}
-
 @media (max-width: 600px) {
   .chat-container {
     max-width: 100vw;
