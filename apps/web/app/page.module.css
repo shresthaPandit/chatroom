@@ -236,24 +236,51 @@
 
 @media (max-width: 600px) {
   .chat-container {
-    max-width: 100vw;
-    min-height: 100vh;
-    border-radius: 0;
-    padding: 8px 2px 2px 2px;
+    min-height: unset;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .messages {
+    flex: unset;
+    min-height: 40px;
+    max-height: 40vh;
+    margin-bottom: 8px;
+    padding-right: 0;
+    overflow-y: auto;
+  }
+  .input-row {
+    margin-top: auto;
   }
   .header {
     font-size: 1.1rem;
-  }
-  .input-row {
-    flex-direction: column;
-    gap: 6px;
+    padding: 8px 0;
   }
   .btn, .chat-input {
     width: 100%;
     min-width: 0;
+    font-size: 1rem;
+    padding: 12px 10px;
   }
   .emoji-picker {
     left: 50%;
     transform: translateX(-50%);
+    bottom: 70px;
+    width: 95vw;
+    max-width: 400px;
+  }
+  .scroll-bottom-btn {
+    right: 10px;
+    bottom: 80px;
+    width: 32px;
+    height: 32px;
+    font-size: 1.1rem;
+  }
+  .no-messages {
+    text-align: center;
+    color: #888;
+    margin-top: 16px;
+    font-size: 1rem;
   }
 }

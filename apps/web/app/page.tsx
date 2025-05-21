@@ -59,7 +59,7 @@ export default function Page() {
   return (
     <div className={classes["chat-container"] + (theme === "dark" ? " dark" : "") }>
       <div className={classes.header}>
-        Shrestha's Chat App
+        Shrestha's Chat Room
         <IconButton
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           style={{ float: "right", marginLeft: 8 }}
